@@ -12,7 +12,9 @@ header {
   width: 110px;
   height: 120px;
   position: relative;
-  margin-left: 44%;
+  margin-left: 47%;
+  padding-bottom: 5px;
+  border-radius: 7px;
 }
 h1 {
   font-family: "Courier New", Courier, monospace;
@@ -38,6 +40,7 @@ nav {
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
   padding: 20px;
+  border-radius: 7px;
 }
 ul {
   list-style: none;
@@ -84,6 +87,7 @@ section {
   width: auto;
   margin-top: 0%;
   padding-top: 10px;
+  padding-left: 75px;
   margin-bottom: 20%;
 }
 aside {
@@ -126,10 +130,18 @@ a:hover {
     flex-direction: column;
   }
 }
+@media screen and (max-width: 1000px) {
+  section {
+    flex: wrap;
+  }
+}
 a {
   background-color: slategray;
   border-radius: 5px;
   color: white;
   border-style: dashed;
   font-family: "Courier New", Courier, monospace;
+}
+.form {
+  background-color: slategray;
 }
