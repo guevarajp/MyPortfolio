@@ -53,6 +53,31 @@ li {
   text-align: center;
   color: white;
 }
+div {
+  display: inline-flex;
+}
+.image_size {
+  width: 300px;
+  height: 300px;
+}
+#password {
+  text-align: center;
+  position: relative;
+}
+section {
+  background-color: bisque;
+  border-radius: 5px;
+  width: 950px;
+}
+aside {
+  height: 600px;
+  width: 200px;
+  position: relative;
+  display: inline-flex;
+  background-color: cadetblue;
+  margin-left: 86%;
+  margin-bottom: 50%;
+}
 footer {
   text-align: center;
 }
