@@ -121,6 +121,7 @@ a:hover {
 #text-color {
   color: white;
   text-decoration: none;
+  border-color: black;
 }
 #text-color:hover {
   color: black;
@@ -130,18 +131,19 @@ a:hover {
     flex-direction: column;
   }
 }
-@media screen and (max-width: 1000px) {
-  section {
-    flex: wrap;
-  }
-}
 a {
   background-color: slategray;
   border-radius: 5px;
-  color: white;
+  color: black;
   border-style: dashed;
   font-family: "Courier New", Courier, monospace;
 }
 .form {
   background-color: slategray;
+}
+#contact {
+  background-color: lightslategray;
+  border-radius: 5px;
+  height: 500px;
+  width: auto;
 }
