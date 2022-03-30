@@ -18,7 +18,7 @@ Using a @media screen rule, the page is visible on most devices.
 
 Here is a snapshot:
 
-[image] (./assets/screenshot.png)
+[image] (assets/screenshot.png)
 
 Thank you for stopping by!
 
