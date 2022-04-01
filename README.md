@@ -16,6 +16,10 @@ In addition, you will notice that each link, upon hover, will have a white backg
 
 Using a @media screen rule, the page is visible on most devices.
 
+Here is a link to the deployed website:
+
+https://guevarajp.github.io/MyPortfolio/
+
 Here is a snapshot:
 
 ![alt text](assets/screenshot.png)
